@@ -2,7 +2,7 @@
  * @name AntiAttack
  * @author cron
  * @authorId 431707293692985344
- * @version 0.1
+ * @version 0.2
  * @description Protect your eyes from attack emojis/stamps
  * @invite aH66W3FnAr
  * @donate https://www.paypal.me/YameteYorokonjau
@@ -19,7 +19,7 @@
     getName() { return "AntiAttack"; }
     getShortName() { return "AntiAttack"; }
     getDescription() { return "Protect your eyes from attack emojis/stamps"; }
-    getVersion() { return "0.1"; }
+    getVersion() { return "0.2"; }
     getAuthor() { return "cron"; }
     getSettingsPanel() {
         return "If you found any attack emojis which bypass this block, Please contact to me.";
@@ -60,7 +60,7 @@
                     }
                 });
             }
-        }, 1);
+        }, 0.1);
     }
 
     stop() {
